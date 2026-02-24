@@ -8,7 +8,7 @@ namespace GuessingGameProject
 {
     public class AlgorithmA
     {
-        public static int Guess( SecretNumber secretNumber, bool printTrace = false)
+        public static int Guess(SecretNumber secretNumber, bool printTrace = false)
         {
             for (int i = secretNumber.Min; i < secretNumber.Max; i++)
             {
